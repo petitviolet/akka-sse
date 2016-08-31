@@ -10,6 +10,7 @@ object Version {
 }
 
 object Library {
+  val sprayJson = "com.typesafe.akka" %% "akka-http-spray-json-experimental"    % Version.Akka
   val akkaHttp          = "com.typesafe.akka" %% "akka-http-experimental" % Version.Akka
   val akkaHttpTestkit   = "com.typesafe.akka" %% "akka-http-testkit"      % Version.Akka
   val akkaStream        = "com.typesafe.akka" %% "akka-stream"            % Version.Akka

@@ -1,4 +1,5 @@
 libraryDependencies ++= Vector(
+  Library.sprayJson,
   Library.akkaHttp,
   Library.akkaStreamContrib,
   Library.akkaHttpTestkit % "test",
